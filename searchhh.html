@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Search</title>
+
+	<style>
+		@font-face {
+			font-family: 'jod';
+			src: url(font/Clash-Light.ttf);
+
+		}
+
+
+
+		.imgg {
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			z-index: -1;
+			width: 100%;
+			height: 100%;
+		}
+
+
+
+
+
+
+
+
+
+		/*button*/
+
+
+
+		.couche1 {
+			position: relative;
+			-webkit-border-radius: 11px;
+			-moz-border-radius: 11px;
+			border-radius: 11px;
+			width: 300px;
+			height: 120px;
+			background: black;
+			-webkit-box-shadow: 0px 11px 2px #301C09;
+			-moz-box-shadow: 0px 11px 2px #301C09;
+			box-shadow: 0px 11px 2px #301C09;
+			cursor: pointer;
+			margin: 80px auto;
+
+
+		}
+
+		.couche2 {
+			position: absolute;
+			-webkit-border-radius: 10px;
+			-moz-border-radius: 10px;
+			border-radius: 10px;
+			width: 294px;
+			height: 110px;
+			margin-top: 3px;
+			margin-left: 3px;
+			background: #FDA80D;
+			-webkit-box-shadow: 0px 9px 0px #AF6B06;
+			-moz-box-shadow: 0px 9px 0px #AF6B06;
+			box-shadow: 0px 9px 0px #AF6B06;
+
+		}
+
+		.couche23 {
+			position: absolute;
+			-webkit-border-radius: 10px;
+			-moz-border-radius: 10px;
+			border-radius: 10px;
+			width: 292px;
+			height: 96px;
+			margin-top: 5px;
+			margin-left: 1px;
+			-webkit-box-shadow: 0px -4px 5px 0px #FFDC33;
+			-moz-box-shadow: 0px -4px 5px 0px #FFDC33;
+			box-shadow: 0px -4px 5px 0px #FFDC33;
+
+
+		}
+
+		.couche3 {
+			position: absolute;
+			-webkit-border-radius: 10px;
+			-moz-border-radius: 10px;
+			border-radius: 10px;
+			margin-top: 0px;
+			margin-left: 5px;
+			width: 281px;
+			height: 98px;
+			background: rgba(255, 187, 42, 1);
+			-webkit-box-shadow: 0px 4px 3px 0px #FE8906;
+			-moz-box-shadow: 0px 4px 3px 0px #FE8906;
+			box-shadow: 0px 4px 3px 0px #FE8906;
+
+		}
+
+		.couche4 {
+			position: absolute;
+			-webkit-border-radius: 10px;
+			-moz-border-radius: 10px;
+			border-radius: 10px;
+			margin-top: 5px;
+			margin-left: 3px;
+			width: 275px;
+			height: 54px;
+			background: #FFD053;
+
+		}
+
+		.couche5 {
+			position: absolute;
+			-webkit-border-radius: 45%;
+			-moz-border-radius: 45%;
+			border-radius: 45%;
+			margin-top: 0px;
+			margin-left: 267px;
+			width: 7px;
+			height: 25px;
+			background: #FFF1B6;
+
+		}
+
+		.battle {
+			position: absolute;
+			font-family: 'jod', sans-serif;
+			font-style: normal;
+			font-weight: 400;
+			color: white;
+			font-size: 1.7em;
+			margin-top: 29px;
+			margin-left: 88px;
+			text-shadow: -1px 0 1px #582E00,
+				1px 0 1px #582E00,
+				0 -1px 1px #582E00,
+				0 4px 1px #582E00,
+				-2px 4px 1px #582E00,
+				2px 3px 2px #582E00;
+		}
+
+		/*effects*/
+		.couche1:active {
+			width: 280px;
+			height: 110px;
+		}
+
+		.couche1:active .couche2 {
+			width: 274px;
+			height: 105px;
+		}
+
+		.couche1:active .couche23 {
+			width: 272px;
+			height: 91px;
+		}
+
+		.couche1:active .couche3 {
+			width: 261px;
+			height: 93px;
+		}
+
+		.couche1:active .couche4 {
+			width: 255px;
+			height: 48px;
+		}
+
+		.couche1:active .couche5 {
+			width: 6px;
+			height: 24px;
+			margin-left: 248px;
+		}
+
+		.couche1:active .battle {
+			margin-top: 27px;
+			margin-left: 81px;
+		}
+
+		.btn {
+			display: flex;
+			flex-wrap: wrap;
+			margin-left: 55.5%;
+			margin-top: 22.1%;
+
+		}
+	</style>
+
+
+</head>
+
+<body>
+
+
+	<div class="hello">
+		<section>
+			<img class="imgg" src="./clash-of-clans-multiplayer-PhotoRoom.png" alt="Aleq">
+
+			<div class="btn">
+				<div class="couche1">
+
+					<div class="couche2">
+
+						<div class="couche23">
+
+							<div class="couche3">
+
+								<div class="couche4">
+
+									<a href="./sea.html"><span class="battle">Battle</span></a>
+
+									<div class="couche5">
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+	</div>
+
+</body>
+
+</html>

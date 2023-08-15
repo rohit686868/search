@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+   
+   @font-face {
+    font-family:'jod' ;
+    src: url(font/Clash-Light.ttf);
+   }
+
+   .background
+{
+    
+    position: absolute;
+   
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
+   
+}
+
+.image1{
+    position: relative;
+    z-index: 102;
+text-align: center;
+ margin-top: 16%;
+}
+
+
+/*Text*/
+
+#text_title{
+
+    font-family: 'jod',sans-serif;
+    font-size: 25px;
+    color: #FFCC00;
+   /* color: #FFFF00;*/
+    text-shadow: 6px 6px 15px black;
+}
+
+    </style>
+</head>
+<body>
+   
+    <div id="preloader">
+        <section>
+            <img class="background" src="index.png" alt="Aleq">
+        <div class="image1">
+            <img src="index.gif" alt="" id="img">
+            <div class="text">
+                <p></p>
+                <p></p>
+                <span id="text_title">Searching for opponents....</span> 
+                
+            </div>
+        </div>
+    </section>
+</div>
+
+<script>
+    var loader=document.getElementById("preloader");
+
+window.addEventListener('load', function(load) {
+  window.removeEventListener('load', load, false);               
+  setTimeout(function(){loader.style.display = 'none'},4000);
+
+},false);
+</script>
+</body>
+</html>
